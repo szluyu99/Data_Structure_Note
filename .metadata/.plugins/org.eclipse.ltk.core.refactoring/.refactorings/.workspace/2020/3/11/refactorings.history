@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="将资源“哈希表”重命名为“11-哈希表”" description="重命名资源“哈希表”" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/哈希表" name="11-哈希表" stamp="1583942810343" updateReferences="true"/>
+</session>

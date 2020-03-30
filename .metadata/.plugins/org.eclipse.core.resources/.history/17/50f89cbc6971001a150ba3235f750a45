@@ -1,0 +1,21 @@
+package com.mj.union;
+
+public class UnionFind_QU extends UnionFind {
+
+	public UnionFind_QU(int capacity) {
+		super(capacity);
+	}
+
+	@Override
+	public int find(int v) {
+		// TODO 自动生成的方法存根
+		return 0;
+	}
+
+	@Override
+	public void union(int v1, int v2) {
+		// TODO 自动生成的方法存根
+
+	}
+
+}

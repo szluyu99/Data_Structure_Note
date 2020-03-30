@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from 项目“_02-并查集”&#x0D;&#x0A;－ 原始项目：“_02-并查集”&#x0D;&#x0A;－ 原始元素：“com.mj.tools.Integers.java”" description="删除元素" element1="/src&lt;com.mj.tools{Integers.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1585454610506" subPackages="false" version="1.0"/>
+</session>

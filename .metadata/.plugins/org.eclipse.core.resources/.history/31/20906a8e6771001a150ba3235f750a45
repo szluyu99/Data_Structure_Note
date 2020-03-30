@@ -1,0 +1,6 @@
+package com.mj.union;
+
+public class UnionFind {
+	private int[] parents;
+	
+}

@@ -1,0 +1,35 @@
+package com.mj.union;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class GenericUnionFind<V> {
+	
+	private Map<V, Node<V>> nodes = new HashMap<>();
+	
+	public void makeSet(V v){
+		if(nodes.containsKey(v)) return;
+		nodes.put(v, new Node<>(v));
+	}
+	
+	/**
+	 * 找出v的根结点
+	 */
+	private Node<V> findNode(V v){
+		Node<V> node = nodes.get(v);
+		if(node == null) return null;
+		
+	}
+	
+	
+	
+	private static class Node<V> {
+		V value;
+		Node<V> parent = this;
+		int rank = 1;
+		Node(V value) {
+			this.value = value;
+		}
+	}
+	
+}

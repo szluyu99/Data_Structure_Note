@@ -1,0 +1,6 @@
+package com.mj.union;
+
+import java.util.Map;
+
+public class GenericUnionFind<V> {
+}

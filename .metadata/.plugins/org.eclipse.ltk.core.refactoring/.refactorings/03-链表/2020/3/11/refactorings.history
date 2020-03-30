@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;09-集合/src/com.mj.list&apos;&#x0D;&#x0A;－ 原始项目：“03-链表”&#x0D;&#x0A;－ 目标元素：“09-集合/src/com.mj.list”&#x0D;&#x0A;－ 原始元素：&#x0D;&#x0A;JavaRefactoringDescriptorComment_textual_move_only=仅移动文本com.mj.List.java&#x0D;&#x0A;JavaRefactoringDescriptorComment_textual_move_only=仅移动文本com.mj.LinkedList.java&#x0D;&#x0A;JavaRefactoringDescriptorComment_textual_move_only=仅移动文本com.mj.AbstractList.java" description="复制编译单元" destination="=09-集合/src&lt;com.mj.list" element1="/src&lt;com.mj{List.java" element2="/src&lt;com.mj{LinkedList.java" element3="/src&lt;com.mj{AbstractList.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1583816505191" units="3" version="1.0"/>
+</session>

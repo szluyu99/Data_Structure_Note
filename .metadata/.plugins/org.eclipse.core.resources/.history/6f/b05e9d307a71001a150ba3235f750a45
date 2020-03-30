@@ -1,0 +1,8 @@
+package com.mj.union;
+/**
+ * Quick Union - 基于size的优化
+ * @author MJ Lee
+ */
+public class UnionFind_QU_S extends UnionFind_QU {
+
+}

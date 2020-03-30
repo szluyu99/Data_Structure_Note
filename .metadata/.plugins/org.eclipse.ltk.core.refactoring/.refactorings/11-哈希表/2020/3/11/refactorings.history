@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Person.java&apos; to &apos;11-哈希表/src/com.mj.model&apos;&#x0D;&#x0A;－ 原始项目：“11-哈希表”&#x0D;&#x0A;－ 目标元素：“11-哈希表/src/com.mj.model”&#x0D;&#x0A;－ 原始元素：“com.mj.Person.java”&#x0D;&#x0A;－ 更新对已重构元素的引用" description="移动编译单元" destination="/src&lt;com.mj.model" element1="/src&lt;com.mj{Person.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1584019251580" units="1" version="1.0"/>
+</session>

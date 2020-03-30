@@ -1,0 +1,24 @@
+package com.mj.union;
+/**
+ * Quick Union
+ * @author yusael
+ */
+public class UnionFind_QU extends UnionFind {
+
+	public UnionFind_QU(int capacity) {
+		super(capacity);
+	}
+
+	@Override
+	public int find(int v) {
+		rangeCheck(v);
+		
+		return 0;
+	}
+
+	@Override
+	public void union(int v1, int v2) {
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.mj.union;
+/**
+ * Quick Union - 基于rank的优化
+ * @author yusael
+ */
+public class UnionFind_QU_R extends UnionFind_QU_S{
+	private int[] ranks;
+	
+	public UnionFind_QU_R(int capacity) {
+		super(capacity);
+		
+		ranks = new int[capacity];
+		for (int i = 0; i < parents.length; i++) {
+			ranks[i] = i;
+		}
+	}
+	
+	public void union(int v1, int v2){
+		
+	}
+
+}

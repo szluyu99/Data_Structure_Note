@@ -1,0 +1,25 @@
+package 链表;
+
+public class _21_合并两个有序链表 {
+    
+	public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+		ListNode newNode, pNode;
+		if(l1.val < l2.val){
+			newNode = new ListNode(l1.val);
+			l1 = l1.next;
+		}else{
+			newNode = new ListNode(l2.val);
+			l2 = l2.next;
+		}
+		while(l1.next != null && l2.next != null){
+			if(l1.val <= l2.val){
+				pNode = l1;
+				l1 = l1.next;
+				newNode.next = pNode;
+			}else{
+				
+			}
+		}
+	}
+    
+}

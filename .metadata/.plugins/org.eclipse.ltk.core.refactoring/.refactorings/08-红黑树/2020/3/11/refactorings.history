@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="将包“com.mj.tree”复制到“09-集合/src/com.mj”&#x0D;&#x0A;－ 原始项目：“08-红黑树”&#x0D;&#x0A;－ 目标元素：“09-集合/src/com.mj”&#x0D;&#x0A;－ 原始元素：“08-红黑树/src/com.mj.tree”" description="复制包" destination="=09-集合/src&lt;com.mj" element1="/src&lt;com.mj.tree" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1583818475263" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="将包“com.mj.tools”复制到“_02-并查集/src/com.mj”&#x0D;&#x0A;－ 原始项目：“_01-排序”&#x0D;&#x0A;－ 目标元素：“_02-并查集/src/com.mj”&#x0D;&#x0A;－ 原始元素：“_01-排序/src/com.mj.tools”" description="复制包" destination="=_02-并查集/src&lt;com.mj" element1="/src&lt;com.mj.tools" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1585454598360" version="1.0"/>
+</session>

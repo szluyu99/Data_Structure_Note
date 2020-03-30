@@ -1,0 +1,16 @@
+package com.mj.union;
+/**
+ * Quick Union - 基于rank的优化 - 路径分裂(Path Spliting)
+ * @author yusael
+ */
+public class UnionFind_QU_R_PS extends UnionFind_QU_R {
+
+	public UnionFind_QU_R_PS(int capacity) {
+		super(capacity);
+	}
+	
+	public void find(){
+		
+	}
+	
+}

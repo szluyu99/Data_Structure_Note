@@ -1,0 +1,22 @@
+package com.mj;
+
+import com.mj.union.UnionFind;
+import com.mj.union.UnionFind_QF;
+
+public class Main {
+	public static void main(String[] args) {
+		UnionFind uf = new UnionFind_QF(16);
+		uf.union(0, 1);
+		uf.union(0, 3);
+		uf.union(0, 4);
+		uf.union(2, 3);
+		uf.union(2, 5);
+		
+		uf.union(6, 7);
+		
+		uf.union(9, 8);
+		uf.union(9, 10);
+		uf.union(9, 11);
+		
+	}
+}

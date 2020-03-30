@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="将类型“com.mj.tree.BinarySearchTree”重命名为“BST”&#x0D;&#x0A;－ 原始项目：“07-AVL树”&#x0D;&#x0A;－ 原始元素：“com.mj.tree.BinarySearchTree”&#x0D;&#x0A;－ 重命名的元素：“com.mj.tree.BST”&#x0D;&#x0A;－ 更新对已重构元素的引用&#x0D;&#x0A;－ 更新注释和字符串中出现的文本" description="重命名类型“BinarySearchTree”" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.mj.tree{BinarySearchTree.java[BinarySearchTree" matchStrategy="1" name="BST" qualified="false" references="true" similarDeclarations="false" stamp="1583561918609" textual="false" version="1.0"/>
+</session>

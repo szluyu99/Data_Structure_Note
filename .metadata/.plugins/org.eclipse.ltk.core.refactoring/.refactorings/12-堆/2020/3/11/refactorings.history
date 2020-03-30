@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 2 elements from 项目“12-堆”&#x0D;&#x0A;－ 原始项目：“12-堆”&#x0D;&#x0A;－ 原始元素：&#x0D;&#x0A;JavaRefactoringDescriptorComment_textual_move_only=仅移动文本com.mj.heap.BinaryHeap.java&#x0D;&#x0A;JavaRefactoringDescriptorComment_textual_move_only=仅移动文本com.mj.heap.Heap.java" description="删除元素" element1="/src&lt;com.mj.heap{BinaryHeap.java" element2="/src&lt;com.mj.heap{Heap.java" elements="2" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1584171526579" subPackages="false" version="1.0"/>
+</session>
