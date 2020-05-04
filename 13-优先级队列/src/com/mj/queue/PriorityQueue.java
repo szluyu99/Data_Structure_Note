@@ -1,13 +1,13 @@
 package com.mj.queue;
 
 import java.util.Comparator;
-
 import com.mj.heap.BinaryHeap;
 /**
  * 二叉堆实现优先级队列
  * @author yusael
  */
 public class PriorityQueue<E> {
+	// 利用二叉堆实现优先级队列
 	private BinaryHeap<E> heap;
 	
 	// 通过 comparator 自定义优先级高低

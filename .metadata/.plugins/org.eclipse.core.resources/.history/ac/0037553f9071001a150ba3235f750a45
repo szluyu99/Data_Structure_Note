@@ -1,7 +1,0 @@
-package com.mj.union;
-
-public class GenericUnionFind<V> {
-	private static class Node<V> {
-		
-	}
-}

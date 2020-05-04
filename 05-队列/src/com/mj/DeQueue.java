@@ -6,9 +6,9 @@ import com.mj.list.List;
 /**
  * 双端队列
  * @author yusael
- *
  */
 public class DeQueue <E> {
+	// 双向链表实现双端队列
 	private List<E> list = new LinkedList<>();
 	/**
 	 * 元素的数量
@@ -16,8 +16,7 @@ public class DeQueue <E> {
 	public int size(){
 		return list.size();
 	}
-	/** * @author yusael
- *
+	/**
 	 * 是否为空
 	 */
 	public boolean isEmpty(){

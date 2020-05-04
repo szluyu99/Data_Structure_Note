@@ -6,8 +6,6 @@ import com.mj.AbstractList;
  * 单向循环链表
  * 
  * @author yusael
- *
- * @param <E>
  */
 public class SingleCircleLinkedList<E> extends AbstractList<E> {
 
@@ -21,21 +19,13 @@ public class SingleCircleLinkedList<E> extends AbstractList<E> {
 			this.element = element;
 			this.next = next;
 		}
-	}
 
-	/**
-	 * 根据索引找到节点
-	 * 
-	 * @param index
-	 * @return
-	 */
-	private Node<E> node(int index) {
-		rangeCheck(index);
-		Node<E> node = first;
-		for (int i = 0; i < index; i++) {
-			node = node.next;
+		@Override
+		public String toString() {
+			StringBuilder sb = new StringBuilder();
+			sb.append(element).append("_").append(next.element);
+			return sb.toString();
 		}
-		return node;
 	}
 
 	@Override
@@ -51,17 +41,20 @@ public class SingleCircleLinkedList<E> extends AbstractList<E> {
 
 	@Override
 	public E set(int index, E element) {
-		E old = node(index).element;
-		node(index).element = element;
+		Node<E> node = node(index);
+		E old = node.element;
+		node.element = element;
 		return old;
 	}
 
 	@Override
 	public void add(int index, E element) {
 		rangeCheckForAdd(index);
+
 		if (index == 0) {
 			Node<E> newFirst = new Node<>(element, first);
-			Node<E> last = (size == 0) ? newFirst : node(size - 1); // 拿到最后一个节点
+			// 拿到最后一个节点, 上面先不要直接改first, 否则下面找节点会出现问题
+			Node<E> last = (size == 0) ? newFirst : node(size - 1);
 			last.next = newFirst;
 			first = newFirst;
 		} else {
@@ -74,7 +67,8 @@ public class SingleCircleLinkedList<E> extends AbstractList<E> {
 	@Override
 	public E remove(int index) {
 		rangeCheck(index);
-		Node<E> old = first;
+
+		Node<E> node = first;
 		if (index == 0) {
 			if (size == 1) {
 				first = null;
@@ -84,12 +78,12 @@ public class SingleCircleLinkedList<E> extends AbstractList<E> {
 				last.next = first;
 			}
 		} else {
-			old = node(index - 1);
-			Node<E> node = old.next;
-			old.next = node.next;
+			Node<E> prev = node(index - 1);
+			node = prev.next;
+			prev.next = node.next;
 		}
 		size--;
-		return old.element;
+		return node.element;
 	}
 
 	@Override
@@ -97,19 +91,29 @@ public class SingleCircleLinkedList<E> extends AbstractList<E> {
 		if (element == null) {
 			Node<E> node = first;
 			for (int i = 0; i < size; i++) {
-				if (node.element == element)
-					return i;
+				if (node.element == element) return i;
 				node = node.next;
 			}
 		} else {
 			Node<E> node = first;
 			for (int i = 0; i < size; i++) {
-				if (node.element.equals(element))
-					return i;
+				if (node.element.equals(element)) return i;
 				node = node.next;
 			}
 		}
 		return ELEMENT_NOT_FOUND;
+	}
+
+	/**
+	 * 根据索引找到节点
+	 */
+	private Node<E> node(int index) {
+		rangeCheck(index);
+		Node<E> node = first;
+		for (int i = 0; i < index; i++) {
+			node = node.next;
+		}
+		return node;
 	}
 
 	@Override

@@ -1,5 +1,11 @@
 package com.mj;
 
+/**
+ * 有缩容功能的动态数组
+ * @author yusael
+ *
+ * @param <E>
+ */
 @SuppressWarnings("unchecked")
 public class ArrayList<E> extends AbstractList<E>{
 
@@ -32,6 +38,7 @@ public class ArrayList<E> extends AbstractList<E>{
 //			outOfBounds(index);
 //		}
 //	}
+	// 扩容
 	private void ensureCapacity(int capacity){
 		int oldCapacity = elements.length;
 		if(oldCapacity >= capacity) return;

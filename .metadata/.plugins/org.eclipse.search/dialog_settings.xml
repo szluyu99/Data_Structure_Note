@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SearchDialog.ScopePart">
+		<item value="0" key="scope"/>
+	</section>
+	<section name="Search">
+		<list key="Search.processedPageIds">
+			<item value="org.eclipse.rse.internal.files.ui.search.searchPage"/>
+			<item value="org.eclipse.search.internal.ui.text.TextSearchPage"/>
+			<item value="org.eclipse.mylyn.tasks.ui.search.page"/>
+			<item value="org.eclipse.egit.ui.commitSearchPage"/>
+			<item value="org.eclipse.jdt.ui.JavaSearchPage"/>
+			<item value="org.eclipse.wst.jsdt.ui.JavaSearchPage"/>
+			<item value="org.eclipse.pde.internal.ui.search.SearchPage"/>
+		</list>
+		<list key="Search.enabledPageIds">
+			<item value="org.eclipse.rse.internal.files.ui.search.searchPage"/>
+			<item value="org.eclipse.search.internal.ui.text.TextSearchPage"/>
+			<item value="org.eclipse.mylyn.tasks.ui.search.page"/>
+			<item value="org.eclipse.egit.ui.commitSearchPage"/>
+			<item value="org.eclipse.jdt.ui.JavaSearchPage"/>
+			<item value="org.eclipse.wst.jsdt.ui.JavaSearchPage"/>
+			<item value="org.eclipse.pde.internal.ui.search.SearchPage"/>
+		</list>
+	</section>
+	<section name="SearchDialog">
+		<item value="org.eclipse.jdt.ui.JavaSearchPage" key="PREVIOUS_PAGE"/>
+	</section>
+	<section name="DialogBounds_SearchDialog">
+		<item value="738" key="DIALOG_WIDTH"/>
+		<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
+		<item value="537" key="DIALOG_HEIGHT"/>
+		<item value="117" key="DIALOG_X_ORIGIN"/>
+		<item value="116" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

@@ -15,36 +15,6 @@ public class ArrayList<E> {
 	public ArrayList(){
 		this(DEFAULT_CAPACITY);
 	}
-	/****************↓封装好的功能函数，遇到再读*******************/
-	// 下标越界抛出的异常
-	private void outOfBounds(int index) {
-		throw new IndexOutOfBoundsException("Index:" + index + ", Size:" + size);
-	}
-	// 检查下标越界(不可访问或删除size位置)
-	private void rangeCheck(int index){
-		if(index < 0 || index >= size){
-			outOfBounds(index);
-		}
-	}
-	// 检查add()的下标越界(可以在size位置添加元素)
-	private void rangeCheckForAdd(int index) {
-		if (index < 0 || index > size) {
-			outOfBounds(index);
-		}
-	}
-	private void ensureCapacity(int capacity){
-		int oldCapacity = elements.length;
-		if(oldCapacity >= capacity) return;
-		// 新容量为旧容量的1.5倍
-		int newCapacity = oldCapacity + (oldCapacity >> 1);
-		E[] newElements = (E[])new Object[newCapacity];
-		for (int i = 0; i < size; i++) {
-			newElements[i] = elements[i]; // 拷贝原数组元素到新数组
-		}
-		elements = newElements;
-		System.out.println("size="+oldCapacity+", 扩容到了"+newCapacity);
-	}
-	/****************↑封装好的功能函数，遇到再读*******************/
 	/**
 	 * 元素的数量
 	 * @return
@@ -65,7 +35,7 @@ public class ArrayList<E> {
 	 * @return
 	 */
 	public boolean contains(E element){
-		return indexOf(element) != ELEMENT_NOT_FOUND; //找的到该元素则返回True
+		return indexOf(element) != ELEMENT_NOT_FOUND; // 找的到该元素则返回True
 	}
 	/**
 	 * 在index位置插入一个元素
@@ -80,21 +50,21 @@ public class ArrayList<E> {
 		// 1 2 3 4 5 6 x x x x	(原数组)
 		// 在index=2处，插入9，元素全部后移
 		// 1 2 9 3 4 5 6 x x x	(add后数组)
-
-		for (int i = size-1; i > index; i--) {
-			elements[i+1] = elements[i];
+		// 先从后往前开始, 将每个元素往后移一位, 然后再赋值
+		for (int i = size - 1; i > index; i--) {
+			elements[i + 1] = elements[i];
 		}
-		elements[index] = element;
+		elements[index] = element; // 复制
 		size++;
 	}
-	/*
-	 * 添加元素到最后面
+	/**
+	 * 添加元素到数组最后
 	 */
 	public void add(E element){
 		add(size, element);
 	}
 	/**
-	 * 设置index位置的元素
+	 * 获取index位置的元素
 	 * @param index
 	 * @param element
 	 * @return 原来的元素ֵ
@@ -126,11 +96,12 @@ public class ArrayList<E> {
 		// 1 2 3 4 5 6 	(原数组)
 		// 删除index为2的元素，元素前移
 		// 1 2 4 5 6	(remove后的数组)
+		// 从前往后开始移, 用后面的元素覆盖前面的元素
 		E old = elements[index];
-		for (int i = index; i < size-1; i++) {
-			elements[i] = elements[i+1];
+		for (int i = index; i < size - 1; i++) {
+			elements[i] = elements[i + 1];
 		}
-		elements[--size] = null; // 删除元素后,将最后一位设置为null
+		elements[--size] = null; // 删除元素后, 将最后一位设置为null
 		return old;
 	}
 	/**
@@ -160,12 +131,45 @@ public class ArrayList<E> {
 	 * 清除所有元素
 	 */
 	public void clear(){
-		// 使用泛型数组后要注意内存管理
+		// 使用泛型数组后要注意内存管理(将元素置null)
 		for (int i = 0; i < size; i++) {
 			elements[i] = null;
 		}
 		size = 0;
 	}
+	/**
+	 * 扩容操作
+	 */
+	private void ensureCapacity(int capacity){
+		int oldCapacity = elements.length;
+		if(oldCapacity >= capacity) return;
+		// 新容量为旧容量的1.5倍
+		int newCapacity = oldCapacity + (oldCapacity >> 1);
+		E[] newElements = (E[])new Object[newCapacity];
+		for (int i = 0; i < size; i++) {
+			newElements[i] = elements[i]; // 拷贝原数组元素到新数组
+		}
+		elements = newElements;
+		System.out.println("size="+oldCapacity+", 扩容到了"+newCapacity);
+	}
+	/****************封装好的功能函数**************************/
+	// 下标越界抛出的异常
+	private void outOfBounds(int index) {
+		throw new IndexOutOfBoundsException("Index:" + index + ", Size:" + size);
+	}
+	// 检查下标越界(不可访问或删除size位置)
+	private void rangeCheck(int index){
+		if(index < 0 || index >= size){
+			outOfBounds(index);
+		}
+	}
+	// 检查add()的下标越界(可以在size位置添加元素)
+	private void rangeCheckForAdd(int index) {
+		if (index < 0 || index > size) {
+			outOfBounds(index);
+		}
+	}
+	/****************封装好的功能函数***************************/
 	@Override
 	public String toString() {
 		// 打印形式为: size=5, [99, 88, 77, 66, 55]

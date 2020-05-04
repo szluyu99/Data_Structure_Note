@@ -1,0 +1,22 @@
+package com.mj.single;
+
+import com.mj.AbstractList;
+
+/**
+ * 单向链表
+ * @author yusael
+ */
+public class SingleLinkedList <E> extends AbstractList<E>{
+
+	private Node<E> first;
+	
+	private static class Node<E>{
+		E element;
+		Node<E> next;
+		public Node(E element, Node<E> next) {
+			this.element = element;
+			this.next = next;
+		}
+	}
+	
+}

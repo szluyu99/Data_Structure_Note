@@ -1,9 +1,0 @@
-package com.mj.union;
-/**
- * Quick Find
- * @author yusael
- *
- */
-public class UnionFind_QF {
-
-}

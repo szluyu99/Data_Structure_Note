@@ -9,7 +9,6 @@ public class Main {
 		list.add(22);
 		list.add(33);
 		list.add(44);
-
 		list.add(0, 55); // [55, 11, 22, 33, 44]
 		list.add(2, 66); // [55, 11, 66, 22, 33, 44]
 		list.add(list.size(), 77); // [55, 11, 66, 22, 33, 44, 77]

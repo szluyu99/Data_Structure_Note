@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item value="196" key="DIALOG_X_ORIGIN"/>
+		<item value="136" key="DIALOG_Y_ORIGIN"/>
+	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="System.out.println(" key="selection"/>
+		<item value="index" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="Asserts.test("/>
-			<item value="Asserts"/>
-			<item value="remove"/>
+			<item value="index"/>
+			<item value="remove()"/>
+			<item value="："/>
 			<item value="add"/>
-			<item value="&#x09;HashMap&lt;String, Integer&gt; map = new HashMap&lt;&gt;();"/>
-			<item value="successor"/>
-			<item value="afterRotate"/>
-			<item value="&lt;E&gt;"/>
+			<item value="get"/>
+			<item value="contain"/>
+			<item value="indexOf"/>
+			<item value="clear()"/>
 		</list>
 		<list key="replacehistory">
+			<item value=":"/>
 			<item value="System.out.println("/>
 			<item value="&lt;K, V&gt;"/>
 		</list>

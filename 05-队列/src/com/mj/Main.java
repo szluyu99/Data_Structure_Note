@@ -1,7 +1,9 @@
 package com.mj;
 
 import com.mj.circle.CircleDeque;
+import com.mj.circle.CircleDeque2;
 import com.mj.circle.CircleQueue;
+import com.mj.circle.CircleQueue2;
 
 public class Main {
 	
@@ -51,6 +53,7 @@ public class Main {
 		System.out.println(queue);
 	}
 	public static void test4(){
+//		CircleDeque2<Integer> queue = new CircleDeque2<>();
 		CircleDeque<Integer> queue = new CircleDeque<>();
 		// 头5 4 3 2 1  100 101 102 103 104 105 106 8 7 6 尾
 		
@@ -70,12 +73,11 @@ public class Main {
 		queue.enQueueFront(11);
 		queue.enQueueFront(12);
 		System.out.println(queue);
-		while (!queue.isEmpty()) {
-			System.out.println(queue.deQueueFront());
-		}
+//		while (!queue.isEmpty()) {
+//			System.out.println(queue.deQueueFront());
+//		}
 	}
 	public static void main(String[] args) {
-		test3();
 		test4();
 	}
 }
