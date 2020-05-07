@@ -2,23 +2,23 @@
 
 
 [《恋上数据结构》第1季 + 第2季 完整笔记](https://blog.csdn.net/weixin_43734095/article/details/104847976)
-
+@[TOC](《恋上数据结构》第1季 + 第2季)
 
 >想深入学习 Java 基础建议看这个，同款**小码哥**系列： [Java 基础强化笔记](https://blog.csdn.net/weixin_43734095/article/details/105591119)
 
 
 # 前言
 正在从头开始逐渐**翻新笔记**（就当复习）
-1. **第1季部分笔记几乎只有代码**，准备开始重新捋一遍（加上原理及一些分析）
+1. **第1季笔记已经快翻新结束！！！**
 我好歹也是学完了两季的人，从头开始捋应该会更有条理性；
-2. **第2季开始的笔记内容较全**（主要是 PPT 内容，加我的一些拓展）
+2. **第2季开始的笔记内容较全**
 3. **准备用 C++ 自己实现一遍学过的数据结构**（量力而行）
  目前已经完成的：动态数组。
 
 至于怎么判断笔记是否翻新过，主要看前缀有没有`《恋上数据结构第x季》`
 
->抛开学习数据结构的角度不说，恋上数据结构的每一份数据结构的代码都是健壮而又完善的，完全可以在业务中需要的时候直接拿来用。
-我的《恋上数据结构》源码：[https://github.com/szluyu99/Data-Structure-Note](https://github.com/szluyu99/Data-Structure-Note)
+抛开学习数据结构的角度不说，恋上数据结构的每一份数据结构的代码都是健壮而又完善的，完全可以在业务中需要的时候直接拿来用。
+我的《恋上数据结构》源码（第1季 + 第2季）：[https://github.com/szluyu99/Data_Structure_Note](https://github.com/szluyu99/Data_Structure_Note)
 
 
 # 数据结构
@@ -41,11 +41,13 @@
 [《恋上数据结构第1季》队列、双端队列、循环队列、循环双端队列](https://blog.csdn.net/weixin_43734095/article/details/104652364)
 
 
-[《恋上数据结构第1季》二叉树基础知识（性质、真二叉树、满二叉树、完全二叉树、遍历...）](https://blog.csdn.net/weixin_43734095/article/details/105921768)
+[《恋上数据结构第1季》二叉树基础、真二叉树、满二叉树、完全二叉树、二叉树的遍历](https://blog.csdn.net/weixin_43734095/article/details/105921768)
 
-[【树Tree】二叉搜索树 BinarySearchTree](https://blog.csdn.net/weixin_43734095/article/details/104687980)
+[《恋上数据结构第1季》二叉树代码实现](https://blog.csdn.net/weixin_43734095/article/details/105953912)
 
-[【树Tree】平衡二叉搜索树 AVLTree](https://blog.csdn.net/weixin_43734095/article/details/104728663)
+[《恋上数据结构第1季》二叉搜索树](https://blog.csdn.net/weixin_43734095/article/details/104687980)
+
+[《恋上数据结构第1季》平衡二叉搜索树、AVL树](https://blog.csdn.net/weixin_43734095/article/details/104728663)
 
 [【树Tree】BST、AVLTree、红黑树 RBTree](https://blog.csdn.net/weixin_43734095/article/details/104765914)
 
@@ -59,7 +61,7 @@
 
 [《恋上数据结构第1季》二叉堆实现优先级队列](https://blog.csdn.net/weixin_43734095/article/details/104869263)
 
-[【树Tree】字典树Trie](https://blog.csdn.net/weixin_43734095/article/details/104880244)
+[《恋上数据结构第1季》字典树 Trie](https://blog.csdn.net/weixin_43734095/article/details/104880244)
 
 
 [【并查集】Union Find](https://blog.csdn.net/weixin_43734095/article/details/105180239)
