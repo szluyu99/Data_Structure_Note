@@ -1,12 +1,7 @@
-# Data-Structure-Note
-
-
-[《恋上数据结构》第1季 + 第2季 完整笔记](https://blog.csdn.net/weixin_43734095/article/details/104847976)
 @[TOC](《恋上数据结构》第1季 + 第2季)
 
 >想深入学习 Java 基础建议看这个，同款**小码哥**系列： [Java 基础强化笔记](https://blog.csdn.net/weixin_43734095/article/details/105591119)
-
-
+>CSDN 博客地址：[《恋上数据结构》第1季 + 第2季 笔记目录（完整）](https://blog.csdn.net/weixin_43734095/article/details/104847976)
 # 前言
 正在从头开始逐渐**翻新笔记**（就当复习）
 1. **第1季笔记已经快翻新结束！！！**
@@ -20,10 +15,8 @@
 抛开学习数据结构的角度不说，恋上数据结构的每一份数据结构的代码都是健壮而又完善的，完全可以在业务中需要的时候直接拿来用。
 我的《恋上数据结构》源码（第1季 + 第2季）：[https://github.com/szluyu99/Data_Structure_Note](https://github.com/szluyu99/Data_Structure_Note)
 
-
 # 数据结构
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200315163642426.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzczNDA5NQ==,size_16,color_FFFFFF,t_70)
-
 [复杂度知识以及LeetCode刷题指南](https://blog.csdn.net/weixin_43734095/article/details/105116064)
 
 [《恋上数据结构第1季》动态扩容数组原理及实现（Java、C++）](https://blog.csdn.net/weixin_43734095/article/details/104598981)
@@ -34,9 +27,7 @@
 [《恋上数据结构第1季》单向循环链表、双向循环链表以及约瑟夫环问题](https://blog.csdn.net/weixin_43734095/article/details/104652079)
 
 
-
 [《恋上数据结构第1季》动态数组实现栈 ](https://blog.csdn.net/weixin_43734095/article/details/104652443)
-
 
 [《恋上数据结构第1季》队列、双端队列、循环队列、循环双端队列](https://blog.csdn.net/weixin_43734095/article/details/104652364)
 
@@ -49,13 +40,15 @@
 
 [《恋上数据结构第1季》平衡二叉搜索树、AVL树](https://blog.csdn.net/weixin_43734095/article/details/104728663)
 
-[【树Tree】BST、AVLTree、红黑树 RBTree](https://blog.csdn.net/weixin_43734095/article/details/104765914)
+[《恋上数据结构第1季》B树](https://blog.csdn.net/weixin_43734095/article/details/105994325)
 
-[【哈希表】哈希表介绍以及从源码分析 Integer、Float、Long、Double、String、自定义对象的哈希值计算](https://blog.csdn.net/weixin_43734095/article/details/104809788)
+[《恋上数据结构第1季》红黑树（未完）](https://blog.csdn.net/weixin_43734095/article/details/104765914)
 
-[【集合Set】ListSet、TreeSet、HashSet](https://blog.csdn.net/weixin_43734095/article/details/104792125)
+[《恋上数据结构第1季》集合 ListSet、TreeSet、HashSet](https://blog.csdn.net/weixin_43734095/article/details/104792125)
 
-[【映射Map】TreeMap，HashMap，LinkedHashMap](https://blog.csdn.net/weixin_43734095/article/details/104792499)
+[《恋上数据结构第1季》哈希表介绍以及从源码分析哈希值计算](https://blog.csdn.net/weixin_43734095/article/details/104809788)
+
+[《恋上数据结构第1季》映射 TreeMap，HashMap，LinkedHashMap](https://blog.csdn.net/weixin_43734095/article/details/104792499)
 
 [《恋上数据结构第1季》二叉堆原理及实现、最小堆解决 TOP K 问题](https://blog.csdn.net/weixin_43734095/article/details/104866058)
 
